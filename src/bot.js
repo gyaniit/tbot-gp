@@ -3,7 +3,6 @@ var config = require('./config');
 var bot = new Twit(config);
 
 var retweetFrequency = 5;
-var favoriteFrequency = 5;
 
 var retweet = function(){
     //set search params
